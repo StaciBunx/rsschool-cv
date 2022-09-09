@@ -2,8 +2,7 @@
 Frontend Developer
 # Contacts
 - Email: anastacia.bank@yandex.ru
-- Github: https://github.com/StaciBunx
-- Discord: @Stya#7806
+- Github: [StaciBunx](https://github.com/StaciBunx)
 - Telegram: @Sztya
 
 # About Me
@@ -27,14 +26,17 @@ function greet(name) {
 return (`Hello, ${name} how are you doing today?`)
 }
 ```
-# Experience
+For more code examples, see the [Codewars](https://www.codewars.com/users/StaciBunx/completed). 
+# Work Experience
+- Oriflame Cosmetics, Moscow.
+2015-2022. Senior Creative Manager
 
 # Education
-- Moscow Business and Law University, Design (completed)
-- RS Schools Course «JavaScript/Front-end. Stage 1» (in progress)
-- Geek Brains Developer (in progress)
+- Moscow Business and Law University, Bachelor Degree in Design (completed)
+- RS Schools Course «JavaScript/Front-end» (in progress)
+- Geek Brains «Junior Developer» (in progress)
 # Languages
-- English (Advanced)
-- Hungarian (Pre-Intermediate)
+- English (advanced)
+- Hungarian (basic)
 - Russian (native)
 
