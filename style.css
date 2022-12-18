@@ -102,11 +102,13 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 80px;
+    padding:  30px 80px;
 }
 
 .skills-list {
     color: #7a7a7a;
+    line-height: 2;
+
 }
 
 .education-list,
