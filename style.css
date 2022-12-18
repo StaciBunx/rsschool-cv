@@ -1,0 +1,36 @@
+body {
+    background: #e4cec1;
+}
+
+.navigation ul {
+    display: flex;
+
+}
+
+main {
+    width: 900px;
+    background: white;
+    display: grid;
+    margin:auto;
+
+}
+
+.avatar {
+    width: 200px;
+}
+
+.cv {
+    display: flex;
+}
+
+.profile {
+  width: 300px;
+  padding: 50px;
+  background: #f5f5f5;
+
+}
+
+.experience {
+    padding: 80px;
+
+}
