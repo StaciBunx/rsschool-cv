@@ -26,8 +26,6 @@ main {
 
 .nav-link {
     color: white
-
-
 }
 
 h1,
@@ -142,11 +140,16 @@ footer {
     justify-content: space-around;
 }
 
+
 .rschool-logo {
     width: 80px;
 }
 
-.footer-containter p {
+.github-logo {
+    height: 40px;
+}
+.footer-containter p,
+.footer-containter a {
     color: white;
     margin: 0;
     align-self: flex-end;
