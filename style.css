@@ -43,6 +43,8 @@ h2 {
 
 h3 {
     font-size: 14px;
+    margin: 0;
+    margin-bottom: 30px;
 }
 
 p {
@@ -61,9 +63,15 @@ p {
     list-style-type: none;
     color: #7a7a7a;
     line-height: 2;
+    display: grid;
+    grid-template-columns: 0.5fr 2fr;
+    margin-left: 50px;
+    margin-top: 40px;
 }
 
-
+.contact-list-link {
+    color:#393939
+}
 
 .photo {
     width: 200px;
@@ -127,6 +135,7 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
 .rschool-logo {
     width: 80px;
 }
