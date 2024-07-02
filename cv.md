@@ -18,7 +18,6 @@ Now I am looking for opportunities to kick off my tech carrier.
 - Vue, VueX, Vue CLI
 - Git, GitHub
 
-
 # Code examples
 
 ```
@@ -26,7 +25,6 @@ function greet(name) {
 return (`Hello, ${name} how are you doing today?`)
 }
 ```
-
 For more code examples, see the [Codewars](https://www.codewars.com/users/StaciBunx/completed).
 
 # Work Experience
