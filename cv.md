@@ -26,6 +26,7 @@ function greet(name) {
 return (`Hello, ${name} how are you doing today?`)
 }
 ```
+
 For more code examples, see the [Codewars](https://www.codewars.com/users/StaciBunx/completed).
 
 # Work Experience
