@@ -1,19 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
 body {
-    background: #e4cec1;
-    font-family: "PT Sans", "Arial", sans-serif;
+    background: #eae9e8;
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
     color: #393939;
 }
 
-main {
+.center {
     width: 900px;
-    background: white;
+    margin: 0 auto;
+}
+
+main {
+    background: #eae9e8;
     display: grid;
     margin: auto;
 
 }
 
 .navigation {
-    background-color: #393939;
+    background-color: #1133c0;
 }
 
 .navigation-list {
@@ -31,23 +56,25 @@ main {
 h1,
 h2,
 h3 {
+    color: #1133c0;
     text-align: center;
-    text-transform: uppercase;
-    font-weight: 200;
-    letter-spacing: 2px;
+    /* text-transform: uppercase; */
 }
 
 h1 {
     font-size: 32px;
+    font-weight: 800;
+    line-height: 90%;
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 24px;
+    font-weight: 600;
+
 }
 
 h3 {
     font-size: 14px;
-    margin: 0;
     margin-bottom: 30px;
 }
 
@@ -56,21 +83,16 @@ p {
 
 }
 
-.line-title {
-    border-bottom: solid #393939 thin;
+.contact {
+    margin-bottom: 30px;
 }
-
-
 
 .contact-list {
     padding: 0;
     list-style-type: none;
     color: #7a7a7a;
-    line-height: 2;
     display: grid;
     grid-template-columns: 0.5fr 2fr;
-    margin-left: 50px;
-    margin-top: 40px;
 }
 
 .contact-list-link {
@@ -93,14 +115,14 @@ p {
 .profile {
     width: 300px;
     padding: 50px;
-    background: #f5f5f5;
+    background: #eae9e8;
     display: flex;
     flex-direction: column;
+    border-right: solid #393939 thin;
 }
 
-.profile .avatar {
-    margin: auto;
-
+.photo {
+    margin-bottom: 40px;
 }
 
 .experience {
@@ -124,8 +146,9 @@ p {
     line-height: 2;
 }
 
-.emphasized-words {
-    color: #393939;
+.education-list span {
+    color: black;
+    font-weight: 600;
     font-size: 18px;
 }
 
@@ -136,17 +159,19 @@ p {
 }
 
 footer {
-    width: 900px;
-    background-color: #393939;
+    background-color: #1133c0;
     margin: auto;
     padding: 20px 0 20px 0;
 }
 
-.footer-containter {
+.footer__wrapper {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
+.footer__wrapper p {
+    color: white;
+}
 
 .rschool-logo {
     width: 80px;
