@@ -68,7 +68,7 @@ h1 {
 }
 
 h2 {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
 
 }
@@ -83,15 +83,16 @@ p {
 
 }
 
+.contact {
+    margin-bottom: 30px;
+}
+
 .contact-list {
     padding: 0;
     list-style-type: none;
     color: #7a7a7a;
-    line-height: 2;
     display: grid;
     grid-template-columns: 0.5fr 2fr;
-    margin-left: 50px;
-    margin-top: 40px;
 }
 
 .contact-list-link {
@@ -118,13 +119,10 @@ p {
     display: flex;
     flex-direction: column;
     border-right: solid #393939 thin;
-
-
 }
 
-.profile .avatar {
-    margin: auto;
-
+.photo {
+    margin-bottom: 40px;
 }
 
 .experience {
@@ -148,8 +146,9 @@ p {
     line-height: 2;
 }
 
-.emphasized-words {
-    color: #393939;
+.education-list span {
+    color: black;
+    font-weight: 600;
     font-size: 18px;
 }
 
@@ -165,11 +164,14 @@ footer {
     padding: 20px 0 20px 0;
 }
 
-.footer-wrapper {
+.footer__wrapper {
     display: flex;
     justify-content: space-between;
 }
 
+.footer__wrapper p {
+    color: white;
+}
 
 .rschool-logo {
     width: 80px;
