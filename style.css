@@ -70,8 +70,7 @@ main {
 }
 
 h2,
-h3,
-.name {
+h3 {
     color: #1133c0;
     text-align: center;
 }
