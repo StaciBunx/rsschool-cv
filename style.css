@@ -25,6 +25,18 @@ body {
     color: #393939;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
 .center {
     width: 900px;
     margin: 0 auto;
@@ -53,15 +65,14 @@ main {
     color: white
 }
 
-h1,
 h2,
-h3 {
+h3,
+.name {
     color: #1133c0;
     text-align: center;
-    /* text-transform: uppercase; */
 }
 
-h1 {
+.name {
     font-size: 32px;
     font-weight: 800;
     line-height: 90%;
